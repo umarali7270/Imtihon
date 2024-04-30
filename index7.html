@@ -10,11 +10,12 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="pt-2 pb-3 lg:pt-4 lg:pb-5 px-5 sm:pt-3 sm:pb-4 bg-[#101524]">
-        <div class="max-w-[1110px] mx-auto flex items-center justify-between">
-            <a href="#"  class=""><img src="./src/img/header-logo/heder-logo.png" alt="" class="flex"></a>
-            <a href="#" class="sm:hidden lg:hidden"><i class="fa-solid fa-bars-staggered" style="color: #3f11e4;"></i></a>
-            <ul class="hidden sm:gap-8 lg:flex ">
+    <header class="pt-2 pb-3 md:pt-4 md:pb-5 bg-[#101524] sm:pt-3 px-5 sm:pb-4">
+        <div class="max-w-[1110px] mx-auto  flex items-center justify-between">
+            <a href="#" class=""><img src="./src/img/header-logo/heder-logo.png" alt=""
+                    class="flex w-[30px] md:w-auto"></a>
+            <a href="#" class="sm:hidden md:hidden "><i class="fa-solid fa-bars-staggered" style="color: #fff;"></i></a>
+            <ul class="hidden sm:gap-8 md:flex ">
                 <li><a href="#" class="text-white font-bold text-sm leading-[18px] tracking-widest
                      hover:border-b-2  pb-2  transition-shadow ">Home</a></li>
                 <li><a href="#" class="text-white font-bold text-sm leading-[18px] tracking-widest
@@ -32,87 +33,89 @@
             </ul>
         </div>
     </header>
-    <section class="lg:pt-20 lg:pb-20 px-5" style="background-image: url(./src/img/header-logo/bacraund-img.png);
+    <section class="lg:pt-20 pt-10 pb-10 lg:pb-20 px-5" style="background-image: url(./src/img/header-logo/bacraund-img.png);
     background-size: cover;">
         <div class="max-w-[1110px] mx-auto">
             <h2 class="lg:font-bold lg:text-2xl lg:leading-8 text-center text-white lg:mb-10">Berita</h2>
         </div>
-        <div class="bg-[#0193DCB2]  ">
-            <div class="max-w-[1000px] lg:flex lg:gap-20 mx-auto py-6">
-                <div class="bg-white lg:w-[460px] rounded-xl lg:h-[300px] text-[#3A4E50]">
-                    <div class="pt-10">
-                        <h2 class="bg-[#0193DCB2]  mb-6 lg:font-bold lg:text-2xl text-white text-center">Visi</h2>
+        <div class="md:bg-[#0193DCB2]  ">
+            <div class="max-w-[1000px] lg:flex lg:gap-20  mx-auto py-6">
+                <div class="bg-white lg:w-[460px] rounded-xl md:mb-0 mb-10 lg:h-[300px] text-[#3A4E50] md:pb-0 pb-5">
+                    <div class="md:pt-10 pt-5">
+                        <h2 class="bg-[#0193DCB2]  mb-6 lg:font-bold lg:text-2xl text-xl text-white text-center">Visi</h2>
                     </div>
-                    <p class="lg:text-sm lg:leading-8 px-6 text-[#3A4E50] lg:list-disc">Membentuk pembelajar yang akhlakul karimah, berilmu, beretika, berwawasan lingkungan untuk menuju pentas dunia.</p>
+                    <p class="lg:text-sm text-sm lg:leading-8 px-6 text-[#3A4E50] ">Membentuk pembelajar yang akhlakul karimah, berilmu, beretika, berwawasan lingkungan untuk menuju pentas dunia.</p>
                 </div>
-                <div class="bg-white lg:w-[460px] rounded-xl lg:h-[300px] text-[#3A4E50]">
-                    <div class="pt-10">
-                        <h2 class="bg-[#0193DCB2]  mb-6 lg:font-bold lg:text-2xl text-white text-center">Misi</h2>
+                <div class="bg-white lg:w-[460px] rounded-xl md:mb-0  lg:h-[300px] text-[#3A4E50] md:pb-0 pb-5">
+                    <div class="md:pt-10 pt-5">
+                        <h2 class="bg-[#0193DCB2]  mb-6 lg:font-bold lg:text-2xl text-xl text-white text-center">Misi</h2>
                     </div>
-                    <ul class="">
-                        <li class="lg:text-sm lg:leading-8 px-6 text-[#3A4E50] lg:list-disc">Mewujudkan pendidikan dengan keteladanan </li>
-                        <li class="lg:text-sm lg:leading-8 px-6 text-[#3A4E50] lg:list-disc">Mengembangkan  budaya belajar dengan didasari pada kecintaan terhadap ilmu pengetahuan</li>
-                        <li class="lg:text-sm lg:leading-8 px-6 text-[#3A4E50] lg:list-disc">    Meningkatkan fasilitas sekolah menuju sekolah bersih, sehat dan berwawasan lingkungan</li>
+                    <ul class="md:block flex flex-col gap-2">
+                        <li class="lg:text-sm text-sm lg:leading-8 px-6 text-[#3A4E50]">Mewujudkan pendidikan dengan keteladanan </li>
+                        <li class="lg:text-sm text-sm lg:leading-8 px-6 text-[#3A4E50]">Mengembangkan  budaya belajar dengan didasari pada kecintaan terhadap ilmu pengetahuan</li>
+                        <li class="lg:text-sm text-sm lg:leading-8 px-6 text-[#3A4E50]">Meningkatkan fasilitas sekolah menuju sekolah bersih, sehat dan berwawasan lingkungan</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="lg:pt-20 lg:pb-10">
-        <div class="max-w-[1110px] mx-auto">
-            <div class="lg:max-w-[1000px] border-2 border-[#DFDFDF] rounded lg:mb-20">
-                <h2 class="bg-[#0193DCB2]  mb-6 lg:font-bold lg:text-2xl text-white text-center rounded">Tujuan Sekolah Pada Tahun 2017 Diharapkan:</h2>
+    <section class="lg:pt-20 pt-10 px-5 pb-10 lg:pb-10">
+        <div class="max-w-[1110px] mx-auto  md:block flex flex-col gap-4">
+            <div class="lg:max-w-[1000px] mx-auto border-2 border-[#DFDFDF] rounded lg:mb-20">
+                <h2 class="bg-[#0193DCB2]  mb-6 lg:font-bold lg:text-2xl text-sm text-white text-center rounded">Tujuan Sekolah Pada Tahun 2017 Diharapkan:</h2>
                 <ul class="lg:w-[800px] mx-auto pb-10 ">
-                    <li class="lg:text-sm lg:leading-8 px-6 text-[#3A4E50] lg:list-decimal">100% Seluruh Guru/Staf memberikan pelayanan, keteladanan kepada para pengguna jasa dengan pendekatan agama, etika, dan budaya
+                    <li class="lg:text-sm text-xs lg:leading-8 px-6 text-[#3A4E50] lg:list-decimal">100% Seluruh Guru/Staf memberikan pelayanan, keteladanan kepada para pengguna jasa dengan pendekatan agama, etika, dan budaya
                     </li>
-                    <li class="lg:text-sm lg:leading-8 px-6 text-[#3A4E50] lg:list-decimal">100% Siswa melakukan syariat agama, etika dan budaya baik di Sekolah maupun diluar 
+                    <li class="lg:text-sm text-xs lg:leading-8 px-6 text-[#3A4E50] lg:list-decimal">100% Siswa melakukan syariat agama, etika dan budaya baik di Sekolah maupun diluar 
                     </li>
-                    <li class="lg:text-sm lg:leading-8 px-6 text-[#3A4E50] lg:list-decimal">90% Fasilitas sekolah mendekati Standar Nasional Pendidikan (SNP)
+                    <li class="lg:text-sm text-xs lg:leading-8 px-6 text-[#3A4E50] lg:list-decimal">90% Fasilitas sekolah mendekati Standar Nasional Pendidikan (SNP)
                     </li>
-                    <li class="lg:text-sm lg:leading-8 px-6 text-[#3A4E50] lg:list-decimal">80% Siswa berprestasi baik ditingkat regional, nasional maupun Global</li>
+                    <li class="lg:text-sm text-xs lg:leading-8 px-6 text-[#3A4E50] lg:list-decimal">80% Siswa berprestasi baik ditingkat regional, nasional maupun Global</li>
                 </ul>
             </div>
-            <div class="lg:max-w-[1000px] border-2 rounded">
-                <h2 class="bg-[#0193DCB2]  mb-6 lg:font-bold lg:text-2xl text-white text-center rounded">STRATEGI</h2>
+            <div class="lg:max-w-[1000px] mx-auto border-2 rounded">
+                <h2 class="bg-[#0193DCB2]  mb-6 lg:font-bold lg:text-2xl text-sm text-white text-center rounded">STRATEGI</h2>
                 <div class="pb-10 lg:w-[800px] mx-auto">
-                    <p class="lg:text-sm lg:leading-8 px-6 text-[#3A4E50] text-center">Tiada kekayaan yang paling utama daripada kekayaan jiwa, tiada kepapaan yang paling menyedihkan daripada kebodohan, dan tiada warisan yang paling baik daripada pendidikan.</p>
+                    <p class="lg:text-sm text-xs lg:leading-8 px-6 text-[#3A4E50] text-center">Tiada kekayaan yang paling utama daripada kekayaan jiwa, tiada kepapaan yang paling menyedihkan daripada kebodohan, dan tiada warisan yang paling baik daripada pendidikan.</p>
                 </div>    
             </div>
         </div>
     </section>
 
-    <footer class="md:pt-16 md:pb-7 bg-[#F9F9F9] px-5">
+    <footer class="pt-10 pb-7 bg-[#F9F9F9] px-5">
         <div class="max-w-[1110px] mx-auto ">
              <div class="md:flex md:justify-between mb-12">
-             <div class="md:w-[286px]">
-                  <a href="#" class=""><img src="./src/img/header-logo/heder-logo.png" alt="footer-logo" class="flex mb-4"></a>
-                  <a href="#" class="text-xs leading-6 mb-6 hover:text-orange-500">Jl. Siliwangi No 123, Cibadak, Cibadak, Sukabumi,
+             <div class="md:w-[286px] w-full mb-10">
+                  <a href="#" class="flex w-[30px] md:w-auto "><img src="./src/img/header-logo/heder-logo.png" alt="footer-logo" class="flex mb-4"></a>
+                  <a href="#" class="text-xs leading-6 md:mb-6  hover:text-orange-500 ">Jl. Siliwangi No 123, Cibadak, Cibadak, Sukabumi,
                        Jawa Barat 43351, Indonesia, (0266)531333</a>
-                  <a href="#" class="text-xs font-bold leading-6 hover:text-blue-400 hover:duration-100">info@smpn1cibadak.sch.i</a>     
+                  <div class="lg:block flex flex-col">
+                    <a href="#" class="text-xs font-bold leading-6 hover:text-blue-400 hover:duration-100">info@smpn1cibadak.sch.i</a>     
                   <a href="#" class="text-xs font-bold leading-6 hover:text-blue-400 hover:duration-100">smpn1cbd_kabsi@yahoo.co.id</a>
+                  </div>
              </div>
-             <div class="md:w-[100px]">
-                  <h3 class="font-bold text-xs leading-5 mb-8">Jelajah</h3>
+             <div class="md:w-[100px] mb-10">
+                  <h3 class="font-bold text-lg leading-5 mb-8">Jelajah</h3>
                   <ul class="flex flex-col gap-4">
-                       <li class=""><a href="#" class="text-[#3A4E50] text-sm leading-[18px] hover:text-orange-500 hover:duration-100 ">Sambutan</a></li>
-                       <li class=""><a href="#" class="text-[#3A4E50] text-sm leading-[18px] hover:text-orange-500 hover:duration-100 ">Profil Sekolah</a></li>
-                       <li class=""><a href="#" class="text-[#3A4E50] text-sm leading-[18px] hover:text-orange-500 hover:duration-100">Berita</a></li>
-                       <li class=""><a href="#" class="text-[#3A4E50] text-sm leading-[18px] hover:text-orange-500 hover:duration-100">Galeri</a></li>
+                       <li class=""><a href="#" class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100 ">Sambutan</a></li>
+                       <li class=""><a href="#" class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100 ">Profil Sekolah</a></li>
+                       <li class=""><a href="#" class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">Berita</a></li>
+                       <li class=""><a href="#" class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">Galeri</a></li>
                   </ul>
              </div>
-             <div class="">
-                  <h3 class="font-bold text-xs leading-5 mb-8">Halaman Umum</h3>
+             <div class="w-[158px] mb-10">
+                  <h3 class="font-bold text-lg leading-5 mb-8">Halaman Umum</h3>
                   <ul class="flex flex-col gap-4">
-                       <li><a href="#" class="text-[#3A4E50] text-sm leading-[18px] hover:text-orange-500 hover:duration-100">Data Guru</a></li>
-                       <li><a href="#" class="text-[#3A4E50] text-sm leading-[18px] hover:text-orange-500 hover:duration-100">PPDB SMPN 1 Cibadak</a></li>
-                       <li><a href="#" class="text-[#3A4E50] text-sm leading-[18px] hover:text-orange-500 hover:duration-100">Panduan PPDB</a></li>
-                       <li><a href="#" class="text-[#3A4E50] text-sm leading-[18px] hover:text-orange-500 hover:duration-100">Lokasi</a></li>
-                       <li><a href="#" class="text-[#3A4E50] text-sm leading-[18px] hover:text-orange-500 hover:duration-100">Kontak</a></li>
+                       <li><a href="#" class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">Data Guru</a></li>
+                       <li><a href="#" class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">PPDB SMPN 1 Cibadak</a></li>
+                       <li><a href="#" class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">Panduan PPDB</a></li>
+                       <li><a href="#" class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">Lokasi</a></li>
+                       <li><a href="#" class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">Kontak</a></li>
                   </ul>
              </div>
              <div class="md:w-[128px]">
-                  <h3 class="font-bold text-xs leading-5 mb-8">Media Sosial</h3>
+                  <h3 class="font-bold text-lg leading-5 mb-8">Media Sosial</h3>
                   <div class="flex gap-4 ">
                        <a href="#" class="px-[9px] py-[10px]  rounded-lg hover:bg-orange-200 hover:duration-150 items-center justify-center" style="border: 2px solid #E6E6E7;"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="10" viewBox="0 0 13 10" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M1.58762 0.95169C1.58762 0.95169 3.23878 3.28936 6.28109 3.33712C6.28109 3.33712 6.02166 1.30983 7.76681 0.689395C7.76681 0.689395 9.25253 0.069425 10.2432 1.23826C10.2432 1.23826 11.3987 1.04721 11.6582 0.689395C11.6582 0.689395 11.5873 1.4079 10.7856 1.93121C10.7856 1.93121 11.5169 1.9301 12.0354 1.64369C12.0354 1.64369 11.3057 2.56688 10.9899 2.71065C10.9845 2.71303 10.9793 2.71525 10.9742 2.71715C10.6678 2.83649 11.3044 4.91186 9.39415 7.36884C9.39415 7.36884 7.94673 9.34837 5.24305 9.73031C4.14356 9.88566 2.53098 10.0167 0.903637 8.77601C0.903637 8.77601 2.55448 8.99087 4.20537 7.75047C4.20537 7.75047 2.50754 7.60719 2.10648 6.17589C2.10648 6.17589 2.88473 6.17589 3.04984 6.15225C3.04984 6.15225 1.23389 5.53182 1.2577 3.77856C1.2577 3.77856 1.87055 4.05292 2.2127 4.01706C2.2127 4.01706 0.679659 2.85997 1.58762 0.95169Z" fill="#373F41"/>

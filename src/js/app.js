@@ -23,3 +23,15 @@ XPng.addEventListener('click' , function(){
     MenuSection.classList.remove('actives')
 })
 
+let mainImg =document.querySelector('#mainImg')
+let heroImg =document.querySelectorAll('#heroImg')
+
+
+heroImg.forEach(function(item , index){
+    item.addEventListener('click' , function(){
+        console.log('salom');
+        console.log(mainImg.style.backgroundImage);
+        console.log(item.src);
+        mainImg.style.backgroundImage = `url(${item.src})`
+    })
+})

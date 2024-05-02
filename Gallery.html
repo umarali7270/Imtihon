@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="pt-2 pb-3 md:pt-4 md:pb-5 bg-[#101524] sm:pt-3 px-5 sm:pb-4">
+        <div class="max-w-[1110px] mx-auto  flex items-center justify-between">
+            <!-- IMG -->
+            <a href="./index.html">
+                <img src="./src/img/header-logo/heder-logo.png" alt=""
+                class=" hover:opacity-95 flex w-[30px] md:w-auto">
+           </a>
+            <svg class="flex md:hidden menu-png fa-solid fa-bars-staggered" xmlns="http://www.w3.org/2000/svg"
+                height="30" viewBox="0 0 512 512" width="30">
+                <title />
+                <line style="fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px" x1="88"
+                    x2="424" y1="152" y2="152" />
+                <line style="fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px" x1="88"
+                    x2="424" y1="256" y2="256" />
+                <line style="fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;stroke-width:48px" x1="88"
+                    x2="424" y1="360" y2="360" />
+            </svg>
+            <!-- IMG -->
+            <ul class="hidden sm:gap-8 md:flex ">
+                <li><a href="./index.html" class="text-white font-bold text-sm leading-[18px] tracking-widest
+                     hover:border-b-2  pb-2  transition-shadow ">Home</a></li>
+                <li><a href="./About .html" class=" text-white font-bold text-sm leading-[18px] tracking-widest
+                     hover:border-b-2  pb-2  transition-shadow w-4">About</a></li>
+                <li><a href="./DataGuru.html" class="text-white font-bold text-sm leading-[18px] tracking-widest
+                     hover:border-b-2  pb-2  transition-shadow w-4">Guru</a></li>
+                <li><a href="./Sanlat.html" class="text-white font-bold text-sm leading-[18px] tracking-widest
+                     hover:border-b-2  pb-2  transition-shadow w-4">Siswa</a></li>
+                <li><a href="./Pendaftaran.html" class="text-white font-bold text-sm leading-[18px] tracking-widest
+                     hover:border-b-2  pb-2  transition-shadow w-4">Pendaftaran</a></li>
+                <li><a href="./Sanlat.html" class="text-white font-bold text-sm leading-[18px] tracking-widest
+                     hover:border-b-2  pb-2  transition-shadow w-4">lainya</a></li>
+                <li><a href="./ContactPage.html" class="text-white font-bold text-sm leading-[18px] tracking-widest
+                     hover:border-b-2  pb-2  transition-shadow w-4">Kontak</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Menu -->
+    <section class="hamburger-section fixed top-0 z-[1111] ">
+        <div class="px-5 bg-[#101524] py-2  h-[100vh]">
+            <div class="max-w-[1110px] mx-auto  flex items-center justify-between mb-7">
+                <img src="./src/img/header-logo/heder-logo.png" alt="" class=" flex w-[30px] md:w-auto"></a>
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="feather feather-x x-png fa-solid fa-bars-staggered text-white  hover:opacity-85 transition-all"
+                    fill="currentColor" height="30" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="3" viewBox="0 0 24 24" width="30">
+                    <line x1="18" x2="6" y1="6" y2="18" />
+                    <line x1="6" x2="18" y1="6" y2="18" />
+                </svg>
+            </div>
+            <div class="grid grid-cols-2 gap-10">
+                <ul class="flex flex-col gap-3">
+                    <li class=""><a href="./index.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">Home
+                            Page</a></li>
+
+                    <li class=""><a href="./daftarekstrakurikuler.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">daftar
+                            ekstra kurikuler</a></li>
+                    <li class=""><a href="./ContactPage.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">Contact
+                            Page</a></li>
+                    <li class=""><a href="./jadwalpelajarankelas.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">jadwal
+                            pelajaran kelas</a></li>
+                    <li class=""><a href="./Prestasi.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">Prestasi</a>
+                    </li>
+                    <li class=""><a href="./Struktur Organisasi.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">Struktur
+                            Organisasi</a></li>
+                    <li class=""><a href="./About .html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">About</a>
+                    </li>
+                    <li class=""><a href="./Jadwal Mengajar guru.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">Jadwal
+                            Mengajar guru</a></li>
+                    <li class=""><a href="./jadwalpelajarankelas.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">jadwal
+                            pelajaran kelas</a></li>
+                </ul>
+                <ul class="flex flex-col gap-3">
+                    <li class=""><a href="./Fasilitas.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all">Fasilitas</a>
+                    </li>
+                    <li class=""><a href="./profile3.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">profile
+                            3</a></li>
+                    <li class=""><a href="./Pendaftaran.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">Pendaftaran</a>
+                    </li>
+                    <li class=""><a href="./JadwaldanPersyaratan.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">Jadwal
+                            dan Persyaratan</a></li>
+                    <li class=""><a href="./DataGuru.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">Data
+                            Guru</a></li>
+                    <li class=""><a href="./Artikel.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">Artikel</a>
+                    </li>
+                    <li class=""><a href="./VisidanMisi.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">Visi
+                            dan Misi</a></li>
+                    <li class=""><a href="./Gallery.html"
+                            class="text-[#0193DC] hover:text-[#0193DC] border-b border-b-[#0193DC] transition-all">Gallery</a>
+                    </li>
+                    <li class=""><a href="./Sanlat.html"
+                            class="text-white hover:text-[#0193DC] hover:border-b border-b-[#0193DC] transition-all ">Sanlat</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <!-- Menu -->
+    <section class="lg:pt-20 pt-10 pb-10 lg:pb-20 px-5"
+        style="background-image: url(./src/img/header-logo/bacraund-img.png); background-size: cover">
+        <div class="max-w-[1110px] mx-auto">
+            <h2 class="lg:font-bold lg:text-2xl text-xl mb-5 lg:leading-8 text-center text-white lg:mb-10">Gallery SMP
+                Negeri 1 Cibadak</h2>
+            <p class="md:text-lg md:leadingmd6leading-6 text-center:text-sm text-xs text-[#DFDFDF] text-center">Beberapa
+                Foto - Foto di SMP Negeri 1 Cibadak</p>
+        </div>
+        </div>
+    </section>
+
+    <section class="lg:pt-20 pt-10 pb-10 lg:pb-20 px-5">
+        <div class="max-w-[1110px] mx-auto ">
+            <div class=" grid md:grid-cols-2 grid-cols-1 gap-y-10">
+                <div class="lg:max-w-[521px] relative md:flex gap-4 ">
+                    <div class="bg-[#0193DCCC] lg:w-[450px] w-[250px] rounded top-3 absolute">
+                        <h2 class="text-white text-end pr-12 py-1 lg:font-bold lg:text-2xl">Guru</h2>
+                    </div>
+                    <img src="./src/imghtml8/img8-1.png" alt="" class="flex rounded md:mb-0 mb-2 w-full">
+                    <div class="">
+                        <p class="lg:pt-20 lg:text-sm lg:leading-8  text-[#919FAE] lg:mb-4 mb-3">Beberapa Foto Guru -
+                            Guru SMP Negeri 1 Cibadak</p>
+                        <a href="#"
+                            class="text-[#2BA7E2] underline lg:font-bold lg:text-sm lg:leading-[18px] hover:text-orange-500 hover:transition-all">Lihat
+                            Foto</a>
+                    </div>
+                </div>
+                <div class="lg:max-w-[521px] relative md:flex gap-4 ">
+                    <div class="bg-[#0193DCCC] lg:w-[450px] w-[250px] rounded top-3 absolute">
+                        <h2 class="text-white text-end pr-12 py-1 lg:font-bold lg:text-2xl">Sanlat</h2>
+                    </div>
+                    <img src="./src/imghtml8/img8-2.png" alt="" class="flex rounded md:mb-0 mb-2 w-full">
+                    <div class="">
+                        <p class="lg:pt-20 lg:text-sm lg:leading-8  text-[#919FAE] lg:mb-4 mb-3">Beberapa Foto Ketika
+                            Sanlat Murid - Murid SMP Negeri 1 Cibadak</p>
+                        <a href="#"
+                            class="text-[#2BA7E2] underline lg:font-bold lg:text-sm lg:leading-[18px] hover:text-orange-500 hover:transition-all">Lihat
+                            Foto</a>
+                    </div>
+                </div>
+                <div class="lg:max-w-[521px] relative md:flex gap-4 ">
+                    <div class="bg-[#0193DCCC] lg:w-[450px] w-[250px] rounded top-3 absolute">
+                        <h2 class="text-white text-end pr-12 py-1 lg:font-bold lg:text-2xl">Kunjungan Disdik</h2>
+                    </div>
+                    <img src="./src/imghtml8/img8-3.png" alt="" class="flex rounded md:mb-0 mb-2 w-full">
+                    <div class="">
+                        <p class="lg:pt-20 lg:text-sm lg:leading-8  text-[#919FAE] lg:mb-4 mb-3">Beberapa Foto Kunjungan
+                            dari Dinas Pendidikan SMP Negeri 1 Cibadak</p>
+                        <a href="#"
+                            class="text-[#2BA7E2] underline lg:font-bold lg:text-sm lg:leading-[18px] hover:text-orange-500 hover:transition-all">Lihat
+                            Foto</a>
+                    </div>
+                </div>
+                <div class="lg:max-w-[521px] relative md:flex gap-4 ">
+                    <div class="bg-[#0193DCCC] lg:w-[450px] w-[250px] rounded top-3 absolute">
+                        <h2 class="text-white text-end pr-12 py-1 lg:font-bold lg:text-2xl">Kunjungan Arrayah</h2>
+                    </div>
+                    <img src="./src/imghtml8/img8-4.png" alt="" class="flex rounded md:mb-0 mb-2 w-full">
+                    <div class="">
+                        <p class="lg:pt-20 lg:text-sm lg:leading-8  text-[#919FAE] lg:mb-4 mb-3">Beberapa Foto Ketika
+                            Kunjungan Arrayah SMP Negeri 1 Cibadak</p>
+                        <a href="#"
+                            class="text-[#2BA7E2] lg:font-bold lg:text-sm lg:leading-[18px] hover:text-orange-500 hover:transition-all">Lihat
+                            Foto</a>
+                    </div>
+                </div>
+                <div class="lg:max-w-[521px] relative md:flex gap-4 ">
+                    <div class="bg-[#0193DCCC] lg:w-[450px] w-[250px] rounded top-3 absolute">
+                        <h2 class="text-white text-end pr-12 py-1 lg:font-bold lg:text-2xl">Perpisahan 2016</h2>
+                    </div>
+                    <img src="./src/imghtml8/img8-5.png" alt="" class="flex rounded md:mb-0 mb-2 w-full">
+                    <div class="">
+                        <p class="lg:pt-20 lg:text-sm lg:leading-8  text-[#919FAE] lg:mb-4 mb-3">Beberapa Foto Ketika
+                            Perpisahan SMP Negeri 1 Cibadak</p>
+                        <a href="#"
+                            class="text-[#2BA7E2] lg:font-bold lg:text-sm lg:leading-[18px] hover:text-orange-500 hover:transition-all">Lihat
+                            Foto</a>
+                    </div>
+                </div>
+                <div class="lg:max-w-[521px] relative md:flex gap-4 ">
+                    <div class="bg-[#0193DCCC] lg:w-[450px] w-[250px] rounded top-3 absolute">
+                        <h2 class="text-white text-end pr-12 py-1 lg:font-bold lg:text-2xl">Wisuda Tahfidz</h2>
+                    </div>
+                    <img src="./src/imghtml8/img8-6.png" alt="" class="flex rounded md:mb-0 mb-2 w-full">
+                    <div class="">
+                        <p class="lg:pt-20 lg:text-sm lg:leading-8  text-[#919FAE] lg:mb-4 mb-3">Beberapa Foto Ketika
+                            Wisida Tahfidz Murid - Murid SMP Negeri 1 Cibadak</p>
+                        <a href="#"
+                            class="text-[#2BA7E2] lg:font-bold lg:text-sm lg:leading-[18px] hover:text-orange-500 hover:transition-all">Lihat
+                            Foto</a>
+                    </div>
+                </div>
+                <div class="lg:max-w-[521px] relative md:flex gap-4 ">
+                    <div class="bg-[#0193DCCC] lg:w-[450px] w-[250px] rounded top-3 absolute">
+                        <h2 class="text-white text-end pr-12 py-1 lg:font-bold lg:text-2xl">MPLS 2016</h2>
+                    </div>
+                    <img src="./src/imghtml8/img8-7.png" alt="" class="flex rounded md:mb-0 mb-2 w-full">
+                    <div class="">
+                        <p class="lg:pt-20 lg:text-sm lg:leading-8  text-[#919FAE] lg:mb-4 mb-3">Beberapa Foto Ketika
+                            MPLS ( Masa Pengenalan Lingkunga SekolahSMP Negeri 1 Cibadak</p>
+                        <a href="#"
+                            class="text-[#2BA7E2] lg:font-bold lg:text-sm lg:leading-[18px] hover:text-orange-500 hover:transition-all">Lihat
+                            Foto</a>
+                    </div>
+                </div>
+                <div class="lg:max-w-[521px] relative md:flex gap-4 ">
+                    <div class="bg-[#0193DCCC] lg:w-[450px] w-[250px] rounded top-3 absolute">
+                        <h2 class="text-white text-end pr-12 py-1 lg:font-bold lg:text-2xl">Fasilitas Sekolah</h2>
+                    </div>
+                    <img src="./src/imghtml8/img8-8.png" alt="" class="flex rounded md:mb-0 mb-2 w-full">
+                    <div class="">
+                        <p class="lg:pt-20 lg:text-sm lg:leading-8  text-[#919FAE] lg:mb-4 mb-3">Beberapa Foto Ketika
+                            Kunjungan Arrayah SMP Negeri 1 Cibadak</p>
+                        <a href="#"
+                            class="text-[#2BA7E2] lg:font-bold lg:text-sm lg:leading-[18px] hover:text-orange-500 hover:transition-all">Lihat
+                            Foto</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <ul class="flex gap-2 mt-20 justify-center">
+                <li class=""><a href="#" class="flex hover:opacity-50">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" transform="matrix(-1 0 0 1 32 0)" fill="#F6F7F9" />
+                            <path d="M16 9L9 16L16 23" stroke="#2BA7E2" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path opacity="0.7" d="M22 11L17 16L22 21" stroke="#2BA7E2" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a></li>
+                <li class=""><a href="#"
+                        class="hover:bg-blue-300 hover:text-white pt-[5px] pb-[6px] pr-[11px] pl-[11px] md:pt-[6px] md:pl-[12px] md:pr-3 md:pb-[7px] bg-[#2BA7E2] rounded-full text-white text-sm">1</a>
+                </li>
+                <li class=""><a href="#"
+                        class="hover:bg-blue-300 hover:text-white pt-[5px] pb-[6px] pr-[11px] pl-[11px] md:pt-[6px] md:pl-[12px] md:pr-3 md:pb-[7px] bg-[#DFDFDF] rounded-full text-#3A4E50  text-sm">2</a>
+                </li>
+                <li class=""><a href="#"
+                        class="hover:bg-blue-300 hover:text-white pt-[5px] pb-[6px] pr-[11px] pl-[11px] md:pt-[6px] md:pl-[12px] md:pr-3 md:pb-[7px] bg-[#DFDFDF] rounded-full text-#3A4E50  text-sm">3</a>
+                </li>
+                <li class=""><a href="#"
+                        class="hover:bg-blue-300 hover:text-white pt-[5px] pb-[6px] pr-[11px] pl-[11px] md:pt-[6px] md:pl-[12px] md:pr-3 md:pb-[7px] bg-[#DFDFDF] rounded-full text-#3A4E50  text-sm">4</a>
+                </li>
+                <li class=""><a href="#" class="flex hover:opacity-50">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16" cy="16" r="16" fill="#F6F7F9" />
+                            <path d="M16 9L23 16L16 23" stroke="#2BA7E2" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path opacity="0.7" d="M10 11L15 16L10 21" stroke="#2BA7E2" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="pt-16 pb-7 bg-[#F9F9F9] px-5">
+        <div class="max-w-[1110px] mx-auto ">
+            <div class="md:flex md:justify-between mb-12">
+                <div class="md:w-[286px] w-full mb-10">
+                    <a href="#" class="flex w-[30px] md:w-auto "><img src="./src/img/header-logo/heder-logo.png"
+                            alt="footer-logo" class="flex mb-4"></a>
+                    <a href="#" class="text-xs leading-6 md:mb-6  hover:text-orange-500 ">Jl. Siliwangi No 123, Cibadak,
+                        Cibadak, Sukabumi,
+                        Jawa Barat 43351, Indonesia, (0266)531333</a>
+                    <div class="lg:block flex flex-col">
+                        <a href="#"
+                            class="text-xs font-bold leading-6 hover:text-blue-400 hover:duration-100">info@smpn1cibadak.sch.i</a>
+                        <a href="#"
+                            class="text-xs font-bold leading-6 hover:text-blue-400 hover:duration-100">smpn1cbd_kabsi@yahoo.co.id</a>
+                    </div>
+                </div>
+                <div class="md:w-[100px] mb-10">
+                    <h3 class="font-bold text-lg leading-5 mb-8">Jelajah</h3>
+                    <ul class="flex flex-col gap-4">
+                        <li class=""><a href="./DataGuru.html"
+                                class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100 ">Sambutan</a>
+                        </li>
+                        <li class=""><a href="./profile3.html"
+                                class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100 ">Profil
+                                Sekolah</a></li>
+                        <li class=""><a href="./Gallery.html"
+                                class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">Berita</a>
+                        </li>
+                        <li class=""><a href="./Gallery.html"
+                                class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">Galeri</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-[158px] mb-10">
+                    <h3 class="font-bold text-lg leading-5 mb-8">Halaman Umum</h3>
+                    <ul class="flex flex-col gap-4">
+                        <li><a href="./DataGuru.html"
+                                class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">Data
+                                Guru</a></li>
+                        <li><a href="./DataGuru.html"
+                                class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">PPDB
+                                SMPN 1 Cibadak</a></li>
+                        <li><a href="./Gallery.html"
+                                class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">Panduan
+                                PPDB</a></li>
+                        <li><a href="./VisidanMisi.html"
+                                class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">Lokasi</a>
+                        </li>
+                        <li><a href="./ContactPage.html"
+                                class="text-[#3A4E50] text-sm leading-[18px] font-bold hover:text-orange-500 hover:duration-100">Kontak</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-[128px]">
+                    <h3 class="font-bold text-lg leading-5 mb-8">Media Sosial</h3>
+                    <div class="flex gap-4 ">
+                        <a href="#"
+                            class="px-[9px] py-[10px]  rounded-lg hover:bg-orange-200 hover:duration-150 items-center justify-center"
+                            style="border: 2px solid #E6E6E7;"><svg xmlns="http://www.w3.org/2000/svg" width="13"
+                                height="10" viewBox="0 0 13 10" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1.58762 0.95169C1.58762 0.95169 3.23878 3.28936 6.28109 3.33712C6.28109 3.33712 6.02166 1.30983 7.76681 0.689395C7.76681 0.689395 9.25253 0.069425 10.2432 1.23826C10.2432 1.23826 11.3987 1.04721 11.6582 0.689395C11.6582 0.689395 11.5873 1.4079 10.7856 1.93121C10.7856 1.93121 11.5169 1.9301 12.0354 1.64369C12.0354 1.64369 11.3057 2.56688 10.9899 2.71065C10.9845 2.71303 10.9793 2.71525 10.9742 2.71715C10.6678 2.83649 11.3044 4.91186 9.39415 7.36884C9.39415 7.36884 7.94673 9.34837 5.24305 9.73031C4.14356 9.88566 2.53098 10.0167 0.903637 8.77601C0.903637 8.77601 2.55448 8.99087 4.20537 7.75047C4.20537 7.75047 2.50754 7.60719 2.10648 6.17589C2.10648 6.17589 2.88473 6.17589 3.04984 6.15225C3.04984 6.15225 1.23389 5.53182 1.2577 3.77856C1.2577 3.77856 1.87055 4.05292 2.2127 4.01706C2.2127 4.01706 0.679659 2.85997 1.58762 0.95169Z"
+                                    fill="#373F41" />
+                            </svg></a>
+                        <a href="#"
+                            class="px-[13px] py-[11px]  rounded-lg hover:bg-orange-200 hover:duration-150 flex items-center justify-center"
+                            style="border: 2px solid #E6E6E7;"><svg xmlns="http://www.w3.org/2000/svg" width="6"
+                                height="11" viewBox="0 0 6 11" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M3.86194 1.93182H5.40668V0H3.86194C2.58418 0 1.54479 1.13738 1.54479 2.53526V3.51073H0V5.44887H1.54479V10.1424H3.47571V5.44887H5.40668V3.51073H3.47571V2.51731C3.47571 2.18234 3.68 1.93182 3.86194 1.93182Z"
+                                    fill="#373F41" />
+                            </svg></a>
+                        <a href="#"
+                            class="px-[11px] py-[10px]  rounded-lg hover:bg-orange-200 hover:duration-150 flex items-center justify-center"
+                            style="border: 2px solid #E6E6E7;"><svg xmlns="http://www.w3.org/2000/svg" width="11"
+                                height="11" viewBox="0 0 11 11" fill="none">
+                                <path
+                                    d="M7.87654 0H2.92346C1.31144 0 0 1.31144 0 2.92346V7.87662C0 9.48856 1.31144 10.8 2.92346 10.8H7.87662C9.48856 10.8 10.8 9.48856 10.8 7.87662V2.92346C10.8 1.31144 9.48856 0 7.87654 0V0ZM5.4 8.35304C3.77166 8.35304 2.44696 7.02834 2.44696 5.4C2.44696 3.77166 3.77166 2.44696 5.4 2.44696C7.02834 2.44696 8.35304 3.77166 8.35304 5.4C8.35304 7.02834 7.02834 8.35304 5.4 8.35304ZM8.42366 3.14338C7.94246 3.14338 7.55107 2.75199 7.55107 2.27079C7.55107 1.78959 7.94246 1.39812 8.42366 1.39812C8.90486 1.39812 9.29633 1.78959 9.29633 2.27079C9.29633 2.75199 8.90486 3.14338 8.42366 3.14338Z"
+                                    fill="#373F41" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="pb-7 text-red-600">
+            <p class="text-xs leading-6 text-[#0C101A]">Copyright © SMP Negeri 1 Cibadak. All right Reserved. Hosting By
+                IDCloudHost</p>
+        </div>
+    </footer>
+
+
+    <script src="./src/js/app.js"></script>
+</body>
+
+</html>
